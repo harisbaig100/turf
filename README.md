@@ -4,13 +4,17 @@ This is a MERN boiler plate for the project "turf", just change the mongoDB keys
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, first run 
+
+### `npm install`
+
+then run:
 
 ### `npm run client-install`
 
 To install dependencies.
 
-you can run:
+Then to run app:
 
 ### `npm run dev`
 
