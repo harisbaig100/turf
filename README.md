@@ -8,7 +8,9 @@ In the project directory, first run
 
 ### `npm install`
 
-then run:
+then run this if the dependencies are still missing.
+
+### `npm i nodemon express mongoose concurrently` 
 
 ### `npm run client-install`
 
