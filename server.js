@@ -2,9 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 
-// const items = require('./routes/api'); 
-// uncomment and add the name of the file ./routes/api/filename?
-
+const items = require('./routes/api/item'); 
 const path = require('path');
 
 const app = express();
@@ -22,8 +20,7 @@ mongoose
     .catch(err => console.log(err));
 
 // use routes
-// app.use('/api/', items);
-// uncomment and add filename /api/filename? to use routes.
+app.use('/api/item', items);
 
 // Serve static assets if production
 if(process.env.NODE_ENV === 'production') {
