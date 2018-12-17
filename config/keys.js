@@ -1,3 +1,5 @@
-module.exports = {
-    mongoURI: 'Enter your MLAB Credentials ie mongodb://YOUR_MONGO_URI'
+if (process.env.NODE_ENV === 'production') {
+  module.exports = require('./keys_prod');
+} else {
+  module.exports = require('./keys_dev');
 }
