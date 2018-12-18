@@ -14,6 +14,8 @@ Then run client dependencies by running
 
 ### `npm run client-install`
 
+### change your mongodb credentials in config/keys.js file
+
 Then to run app:
 
 ### `npm run dev`
